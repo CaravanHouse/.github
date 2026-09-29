@@ -1,0 +1,30 @@
+name: ✨ Новая функция · Feature request
+description: Предложите улучшение или новую возможность
+title: "feat: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Какую задачу решаем?
+      description: Для кого это и зачем. Что сейчас неудобно?
+      placeholder: Менеджеры не видят новые заявки, пока не откроют админку.
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Предлагаемое решение
+      placeholder: Отправлять уведомление о новой заявке в Telegram-чат менеджеров.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Альтернативы
+      description: Какие ещё варианты рассматривали?
+  - type: textarea
+    id: extra
+    attributes:
+      label: Дополнительно
+      description: Макеты, примеры, ссылки.

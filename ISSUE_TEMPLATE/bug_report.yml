@@ -1,0 +1,54 @@
+name: 🐞 Баг · Bug report
+description: Что-то работает не так, как должно
+title: "fix: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Спасибо, что сообщили! Чем точнее описание, тем быстрее исправим.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Что произошло?
+      description: Коротко опишите проблему.
+      placeholder: При нажатии «Оформить заказ» бот не отвечает.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Как воспроизвести
+      placeholder: |
+        1. Открыть …
+        2. Нажать …
+        3. Увидеть ошибку …
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Что ожидалось
+    validations:
+      required: true
+  - type: dropdown
+    id: where
+    attributes:
+      label: Где
+      options:
+        - Веб-сайт
+        - Telegram-бот
+        - Telegram Mini App
+        - Другое
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Устройство и браузер / версия Telegram
+      placeholder: iPhone 13, Safari 17 / Telegram 11.2 Android
+  - type: textarea
+    id: extra
+    attributes:
+      label: Скриншоты, логи, ссылки
+      description: Можно перетащить файлы прямо сюда.
