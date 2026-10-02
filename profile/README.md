@@ -73,11 +73,13 @@ We build digital tools that bring customers to small and medium businesses in Uz
 
 ## 🚀 Проекты · Projects
 
-<!-- TODO: замените плейсхолдеры на реальные проекты (название, ссылка, 1 строка описания) -->
+Демо с открытым кодом · Open-source demos:
 
+- 🛍 **[shop-miniapp](https://github.com/CaravanHouse/shop-miniapp)** · Mini App: магазин в Telegram, каталог, корзина и заказы через бота · Telegram store with catalog, cart and order statuses
+- 🧮 **[configurator](https://github.com/CaravanHouse/configurator)** · Website + bot: смета проекта онлайн, заявки в Telegram · instant project estimate with leads sent to Telegram
+- 💬 **[quiz-bot](https://github.com/CaravanHouse/quiz-bot)** · Telegram bot: квиз подбирает продукт и собирает заявки · quiz that recommends a product and collects leads
+- 🌱 **[focus-garden-tg](https://github.com/CaravanHouse/focus-garden-tg)** · Mini App + bot: таймер фокуса, где растёт дерево · focus timer where a tree grows
 - 🌐 **[caravanhouse.uz](https://github.com/CaravanHouse/caravanhouse-website)** · Website: сайт компании на Next.js · company website built with Next.js
-- 🤖 **TODO: название** · Telegram bot: TODO, одна строка о задаче и результате
-- 📱 **TODO: название** · Mini App: TODO, одна строка о задаче и результате
 
 ## 📬 Контакты · Contacts
 
