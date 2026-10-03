@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/CaravanHouse/.github/main/profile/logo.svg" width="72" height="72" alt="CaravanHouse logo">
+<img src="https://raw.githubusercontent.com/CaravanHouse/.github/main/profile/logo.png" width="300" alt="CaravanHouse IT Company">
 
 # CaravanHouse
 
